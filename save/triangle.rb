@@ -19,6 +19,11 @@ def triangle(a, b, c)
     raise TriangleError, "No triangle side can be less than or equal to zero"
   end  
 
+  array = [a,b,c]
+  max = array.slice!(array.index(array.max))
+  if max >= array[0]+array[1]
+    raise TriangleError, "The longest side must be shorter than the sum of the two other sides."
+  end  
 
 
 
@@ -36,7 +41,3 @@ end
 # Error class used in part 2.  No need to change this code.
 class TriangleError < StandardError
 end
-
-
-
-p triangle(-1,3,2)

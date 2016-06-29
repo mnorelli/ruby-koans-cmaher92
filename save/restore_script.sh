@@ -1,6 +1,9 @@
 
 mkdir ../save
 
+mv about_sandwich_code.rb ../save
+mv about_blocks.rb ../save
+mv about_iteration.rb ../save
 mv triangle.rb ../save
 mv about_exceptions.rb ../save
 mv about_triangle_project.rb ../save
