@@ -30,6 +30,10 @@ mv koans ..
 cd ..
 
 cd koans
+mv ../save/about_sandwich_code.rb . 
+mv ../save/about_blocks.rb .
+mv ../save/about_iteration.rb .
+
 mv ../save/triangle.rb .
 mv ../save/about_exceptions.rb .
 
